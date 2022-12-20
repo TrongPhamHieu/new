@@ -5,7 +5,7 @@ const shoesProduct = [
         name: 'Giày thể thao',
         category:'Giày Sneaker',
         color:'Ocean',
-        price: '3 000 000 VNĐ',
+        price: '3.000.000 VNĐ',
     },
     {
         image:'https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2022/03/giay-the-thao-nike-revolution-5-bq3204-400-mau-xanh-navy-size-40-623806bd0e4fb-21032022120149.jpg',
