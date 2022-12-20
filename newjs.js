@@ -25,7 +25,7 @@ const shoesProduct = [
         image:'https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2022/12/giay-the-thao-nike-air-jordan-1-retro-high-og-white-stealth-555088-037-mau-trang-xam-size-40-5-63996ab4c9bb9-14122022131828.jpg',
         name: 'Nike Air Jordan',
         category:'Giày Sneaker',
-        color:'',
+        color:' ',
         price: '10.500.000 VND',
     },
     {
@@ -99,48 +99,56 @@ const shirtProduct = [
         image:'https://cdn.tgdd.vn/Products/Images/10100/264790/t-shirt-tap-luyen-nam-nike-ct2923-den-1.jpg',
         name: 'Áo Thun Nam',
         category:'Áo Thun Nam',
+        color:' ',
         price: '750.000 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/280828/nike-ar5004-010-1.jpg',
         name: 'Áo Thun Nam Có Cổ',
         category:'Áo Thun Nam',
+        color:' ',
         price: '500.000 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/280811/nike-cw6951-013-1.jpg',
         name: 'Áo Thun Nam Nike',
         category:'Áo Thun Nam',
+        color:' ',
         price: '1.000.000 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/295336/ao-thun-lifestyle-nam-nike-dr7806-100-thumb-600x600.jpg',
         name: 'Áo Thun Nam',
         category:'Áo Thun Nam',
+        color:' ádasdasd',
         price: '1.500.00 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/264782/ao-thun-chay-bo-nam-nike-cj5689-040622-112511-600x600.jpg',
         name: 'Áo Thun Nam',
-        category:'Giày Sneaker',
+        category:'Áo Thun Nam',
+        color:' ',
         price: '', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/295339/ao-thun-lifestyle-nam-nike-dr7810-010-271022-101601-600x600.jpg',
         name: 'Áo Thun Nam',
         category:'Áo Thun Nam',
+        color:' ',
         price: '1.000.000 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/295338/ao-thun-lifestyle-nam-nike-dr7808-435-thumb-600x600.jpg',
         name: 'Áo Thun Nam',
         category:'Áo Thun Nam',
+        color:' ',
         price: '1.000.000 VND', 
     },
     {
         image:'https://cdn.tgdd.vn/Products/Images/10100/295340/ao-thun-lifestyle-nam-nike-dr7810-100-271022-101100-600x600.jpg',
         name: 'Áo Thun Nam',
         category:'Áo Thun Nam',
+        color:' ',
         price: '500.000 VND', 
     },
 ]
@@ -163,11 +171,13 @@ for (let i = 0; i < shirtProduct.length; i++) {
         '<ul class="product-title">'+
             '<li><span style="font-weight: bolder;">Category</span></li>'+
             '<li><span style="font-weight: bolder;">Name</span></li>'+
+            '<li><span style="font-weight: bolder;">Color</span></li>'+
             '<li><span style="font-weight: bolder;">Price</span></li>'+
         '</ul>'+
         '<ul class="price-info">'+
             '<li>'+ shirtProduct[i].category +'</li>'+
             '<li>' + shirtProduct[i].name +'</li>'+
+            '<li>' + shirtProduct[i].color +'</li>'+
             '<li>'+ shirtProduct[i].price +'</li>'+
         '</ul>'+
     '</div>'+

@@ -142,7 +142,7 @@ input::-moz-focus-inner {
 #submit {
   color: #707075;
   margin-top: 40px;
-  transition: color 300ms;
+  
 }
 #submit:focus {
   color: #f2f2f2;
@@ -150,12 +150,17 @@ input::-moz-focus-inner {
 #submit:active {
   color: #d0d0d2;
 }
+#submit:hover{
+  margin-top: 41px;
+  transition: 2s;
+  border: 1px solid #d5d5ea ;
+}
 
     </style>
 </head>
 <body>
   <video playsinline autoplay muted loop>
-    <source src="/bitburger_-_world_cup (720p).mp4" type="video/mp4">
+    <source src="/bitburger_-_world_cup.mp4" type="video/mp4">
     </video>
     
     <!-- <div id="wrapper">
@@ -209,7 +214,7 @@ input::-moz-focus-inner {
               <input type="email" id="email" placeholder="E-mail">
               <label for="password">Mật khẩu</label>
               <input type="password" id="password" placeholder="Password">
-              <input type="submit" id="submit" value="Đăng nhập">
+              <input type="submit" id="submit" value="ĐĂNG NHẬP" style="color: #0d0e0e; font-weight: bold;">
             </div>
           </div>
         </div>
@@ -217,66 +222,6 @@ input::-moz-focus-inner {
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js">
 
-//     $(document).ready(function(){
-//     $('#eye').click(function(){
-//         $(this).toggleClass('open');
-//         $(this).children('i').toggleClass('fa-eye-slash fa-eye');
-//         if($(this).hasClass('open')){
-//             $(this).prev().attr('type', 'text');
-//         }else{
-//             $(this).prev().attr('type', 'password');
-//         }
-//     });
-// });
-// var current = null;
-// document.querySelector('#email').addEventListener('focus', function(e) {
-//   if (current) current.pause();
-//   current = anime({
-//     targets: 'path',
-//     strokeDashoffset: {
-//       value: 0,
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     },
-//     strokeDasharray: {
-//       value: '240 1386',
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     }
-//   });
-// });
-// document.querySelector('#password').addEventListener('focus', function(e) {
-//   if (current) current.pause();
-//   current = anime({
-//     targets: 'path',
-//     strokeDashoffset: {
-//       value: -336,
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     },
-//     strokeDasharray: {
-//       value: '240 1386',
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     }
-//   });
-// });
-// document.querySelector('#submit').addEventListener('focus', function(e) {
-//   if (current) current.pause();
-//   current = anime({
-//     targets: 'path',
-//     strokeDashoffset: {
-//       value: -730,
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     },
-//     strokeDasharray: {
-//       value: '530 1386',
-//       duration: 700,
-//       easing: 'easeOutQuart'
-//     }
-//   });
-// });
 </script>
 </body>
 </html>
