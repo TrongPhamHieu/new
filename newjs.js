@@ -25,7 +25,7 @@ const shoesProduct = [
         image:'https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2022/12/giay-the-thao-nike-air-jordan-1-retro-high-og-white-stealth-555088-037-mau-trang-xam-size-40-5-63996ab4c9bb9-14122022131828.jpg',
         name: 'Nike Air Jordan',
         category:'Giày Sneaker',
-        color:' ',
+        color:'White - Gray',
         price: '10.500.000 VND',
     },
     {
@@ -51,9 +51,9 @@ const shoesProduct = [
     },
     {
         image:'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcShqIrh7wD-dHmFdl1ORKSWrGwFyeKcSzflzVsFmih9JXCzIk55O5z6oLgFM1V_hMdv69g2eB-zZucVRjlx0L8c40AOjfBsI9lRZ6SucJuF7qml9YUZH20h&usqp=CAE',
-        name: 'Nike Air Max 95 Essential Comet',
+        name: 'Nike Air Max 95',
         category:'Giày Sneaker',
-        color:'',
+        color:'Essential Comet',
         price: '6.090.000 VND',
     }
    

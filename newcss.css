@@ -303,6 +303,9 @@ a{
     align-items: center;
 
 }
+.product-payment ul{
+    align-items: center;
+}
 .title-cart > ul{
     display: flex;
     justify-content: space-around;
