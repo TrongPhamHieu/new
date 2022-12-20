@@ -1,0 +1,354 @@
+body{
+    background-color: transparent;
+    color: rgb(33, 68, 79);
+}
+/* GIÀY THỂ THAO */
+#space{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+}
+.list{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    padding: 20px;
+}
+#product-list .img-product > img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+}
+.list:hover{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #9d0c4d;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 2px 2px #9d0c4d;
+    transition: 0.5s;
+}
+#product-list{
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.product-info >ul >li{
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* ÁO THUN NAM */
+.price-info{
+    padding-left: 10px;
+}
+#shirt-list .img-product > img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+#shirt-list{
+    display: flex;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+.card-text >a> img{
+    background: #ffffff;
+    border: 0.1875em solid #ffffff;
+    border-radius: 30%;
+    height: 3em;
+    width: 3em;
+}
+.navbar{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.icon-cart{
+    display: flex;
+    justify-content: space-around;
+}
+.nav .nav-item{
+    font-weight: 500;
+    
+}
+
+.shoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.shirt{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #9d0c4d;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.product-menu{
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b2a49
+
+}
+@media only screen and (max-width: 992px ){
+    .product-menu{
+        display: flex;
+        height: 300px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+
+}
+.product-menu .dropdown > a{
+    padding: 10px;
+    
+
+}
+
+.dropdown{
+    padding: 0 20px;
+    
+}
+.dropdown > a{
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    
+    display: inline;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    border: 1px solid rgb(27,42,73);
+    border-radius: 20px;
+    align-items: center;
+    width: 80px;
+    
+}
+.slide{
+    height: 400px;
+}
+#slide-img{
+    height: 500px;
+}
+#carouselExampleIndicators{
+    display: inline;
+}
+/* VIDEO BACKGROUND */
+    /* video {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: -1;
+        opacity: 0.3;
+    } */
+
+/* BUTTON 28 THANH TOÁN GIỎ HÀNG */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* CONTAINER */
+
+/* THANH TOÁN */
+#payment{
+    margin: auto;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.menu-payment{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.title-cart > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.size-payment{
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.payment-submit{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+.payment-submit >button{
+    margin: 0 10px;
+}
+#total{
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+/* GOOGLE MAP SITE */
+#map-site{
+    margin: auto;
+    text-align: center;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
