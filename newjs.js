@@ -69,7 +69,7 @@ for (let i = 0; i < shoesProduct.length; i++) {
   
     '<div class="list">' +
     '<div class="img-product">'+
-        '<img src="' + shoesProduct[i].image +  '" alt="">'+
+        '<img id="item-payment" src="' + shoesProduct[i].image +  '" alt="">'+
     '</div>' + 
     '<hr>' +
     '<div class="product-info">'+
@@ -87,9 +87,9 @@ for (let i = 0; i < shoesProduct.length; i++) {
         '</ul>'+
     '</div>'+
     '<hr>'+
-    '<div class="icon-cart">'+
-        '<button onclick="buyItem()" class="button-17"><img style="width:50px; height:50px" src="https://pngimg.com/uploads/plus/plus_PNG106.png">Thêm vào giỏ hàng</a></button>'+
-    '</div>'+
+    // '<div class="icon-cart">'+
+        '<button id="button-17"><img style="width:50px; height:50px" src="https://pngimg.com/uploads/plus/plus_PNG106.png">Thêm vào giỏ hàng</a></button>'+
+    // '</div>'+
     '</div>'
 }
 
@@ -164,7 +164,7 @@ for (let i = 0; i < shirtProduct.length; i++) {
   
     '<div class="list">' +
     '<div class="img-product">'+
-        '<img src="' + shirtProduct[i].image +  '" alt="">'+
+        '<img id="item-payment" src="' + shirtProduct[i].image +  '" alt="">'+
     '</div>' + 
     '<hr>' +
     '<div class="product-info">'+
@@ -182,9 +182,9 @@ for (let i = 0; i < shirtProduct.length; i++) {
         '</ul>'+
     '</div>'+
     '<hr>'+
-    '<div class="icon-cart">'+
-        '<button onclick="buyItem()" class="button-17"><img style="width:50px; height:50px" src="https://pngimg.com/uploads/plus/plus_PNG106.png">Thêm vào giỏ hàng</a></button>'+
-    '</div>'+
+    // '<div class="icon-cart">'+
+        '<button id="button-17"><img style="width:50px; height:50px" src="https://pngimg.com/uploads/plus/plus_PNG106.png">Thêm vào giỏ hàng</a></button>'+
+    // '</div>'+
     '</div>'
 }
 
@@ -223,7 +223,17 @@ window.onclick = function (event) {
 
 var itemPayment = [];
 
-
+const clickAddcart = document.querySelectorAll("#button-17");
+    clickAddcart.forEach(function(button,index) {
+    // console.log(button,index);
+    button.addEventListener("click", function(event){
+        var btnItem = event.target
+        var product = btnItem.parentElement
+        var productImg = product.querySelector("#item-payment").src
+        var productName = product.querySelector(".price-info")
+        console.log(productName)
+    })
+})
 
 
 
